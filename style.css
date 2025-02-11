@@ -1,0 +1,75 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;;
+}
+ 
+.cal-container{
+    background-color: #002244;
+    border: 4px solid orange;
+    
+    
+    box-shadow: 10px 10px 10px #041E42 ;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.main{
+    width: 100%;
+    border: 2px solid red;
+    font-variant: contextual;
+}
+
+.date-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 20px 10px;
+    flex-wrap: wrap;
+    border: 2px solid green;
+    margin: 10px;
+}
+    
+.date-grid > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin-top: 15%;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  
+}
+
+.month-indicator{
+    border: 2px solid grey;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.date{
+    opacity: 0.5;
+}
+
+#now{
+    border: 2px solid white;
+    background-color: orange;
+    border-radius: 50%;
+   
+}
+
+.innerdiv{
+    margin: 20px;
+    border: 2px solid white;
+}
+
